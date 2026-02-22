@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  
+
+}
+.parent{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.child{
+  border: 1px solid rgb(247, 238, 238);
+  /* height: 200px; */
+  padding: 20px;
+ 
+  text-align: center;
+  gap:10px;
+  background-color: rgb(135, 129, 129);
+  width:auto;
+  border-radius: 10px;
+  /* margin: auto;; */
+}
+.child p{
+  margin-top: 19px;
+}
+.child img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+button{
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  /* cursor: pointer; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+margin-top: 40px; 
+}
